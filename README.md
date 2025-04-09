@@ -1,24 +1,24 @@
 #following commands i have used in this project
 
-# npx create-react-app@latest .            --------> for exiting folder
-# npm install axios react-router-dom       --------> for react dom
-# npm i express                            --------> express
-# npm i mongoose                           --------> mongoose
-# npm i cors                               --------> cors
-# npm i dotenv                             --------> dotenv
+### npx create-react-app@latest .            --------> for exiting folder
+### npm install axios react-router-dom       --------> for react dom
+### npm i express                            --------> express
+### npm i mongoose                           --------> mongoose
+### npm i cors                               --------> cors
+### npm i dotenv                             --------> dotenv
 
 
 ==================================
 
-# run code
+### run code
 ===========
-# cd frontend
-# npm run
+### cd frontend
+### npm run
 
 ===================
 
-# cd backend
-# node server.js
+### cd backend
+### node server.js
 
 
 
