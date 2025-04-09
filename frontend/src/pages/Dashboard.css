@@ -1,0 +1,71 @@
+/* Dashboard.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+    background-color: #f3f4f6;
+  }
+  
+  .dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .dashboard-form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-title {
+    text-align: center;
+    font-size: 24px;
+    color: #1f2937;
+    margin-bottom: 10px;
+  }
+  
+  .dashboard-form input,
+  .dashboard-form textarea {
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.2s ease;
+  }
+  
+  .dashboard-form input:focus,
+  .dashboard-form textarea:focus {
+    border-color: #3b82f6;
+  }
+  
+  .dashboard-form textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .dashboard-form button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .dashboard-form button:hover {
+    background-color: #2563eb;
+  }
+  
